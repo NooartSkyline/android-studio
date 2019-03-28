@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_send"
+            android:title="ส่งคำร้อง" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/folderwrite"
+            android:title="ดูประวัติการส่งคำร้อง" />
+        <item
+            android:id="@+id/getlocalmap"
+            android:icon="@drawable/youlocal"
+            android:title="ดูตำแหน่งปัจจุบันของคุณ" />
+        <item
+            android:id="@+id/getdron"
+            android:icon="@drawable/mdrone"
+            android:title="ดูข้อมูลอากาศยาน" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/me2"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/shutdown"
+            android:title="ออกโปรแกรม" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="bottombar_main">หน้าหลัก</string>
+    <string name="bottombar_search">ค้นหา</string>
+    <string name="bottombar_trans">การทำรายการ</string>
+    <string name="bottombar_setting">ตั้งค่า</string>
+    <string name="hint_search_year">ใส่ปีที่ต้องการค้นหา \"2530-2560\"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">111111</string>
+    <string name="hello_blank_fragment2">art</string>
+
+</resources>

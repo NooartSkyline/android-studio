@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigation2">
+
+    <activity
+        android:id="@+id/main2Activity2"
+        android:name="com.example.test_navigation_editor.Main2Activity"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/mainActivity">
+        <activity
+            android:id="@+id/mainActivity"
+            android:name="com.example.test_navigation_editor.MainActivity"
+            android:label="activity_main"
+            tools:layout="@layout/activity_main" />
+        <action
+            android:id="@+id/action_1"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_global_main2Activity22"
+            app:destination="@id/main2Activity2" />
+        <action
+            android:id="@+id/action_navigation2_pop"
+            app:popUpTo="@id/navigation2"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_global_main2Activity23"
+            app:destination="@id/main2Activity2" />
+    </navigation>
+</navigation>

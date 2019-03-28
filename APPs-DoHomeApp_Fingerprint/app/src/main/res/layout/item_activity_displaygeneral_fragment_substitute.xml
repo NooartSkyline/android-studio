@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_fm_itemsubstitute_name_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Name : "
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="@+id/tv_fm_itemsubstitute_article_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_itemsubstitute_article_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemsubstitute_article_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Article : "
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/im_fm_itempicture"
+        app:layout_constraintTop_toTopOf="@+id/im_fm_itempicture" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemsubstitute_article"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemsubstitute_article_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_fm_itemsubstitute_article_h" />
+
+    <Button
+        android:id="@+id/btn_fm_itemsubstitute_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/im_fm_itempicture"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_itemsubstitute_name" />
+
+    <ImageView
+        android:id="@+id/im_fm_itempicture"
+        android:layout_width="133dp"
+        android:layout_height="124dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dohome" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemsubstitute_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemsubstitute_name_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_fm_itemsubstitute_name_h" />
+</android.support.constraint.ConstraintLayout>

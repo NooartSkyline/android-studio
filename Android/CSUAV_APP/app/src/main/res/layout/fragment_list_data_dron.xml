@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cpe.kku.pong.csuav_app.ListDataDron">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="ข้อมูล UAV ทั้งหมด" />
+
+        <Button
+            android:id="@+id/button1"
+            android:background="@drawable/btblue"
+            android:layout_gravity="center"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:text="โหลดข้อมูล" />
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView1" />
+    </LinearLayout>
+
+</FrameLayout>

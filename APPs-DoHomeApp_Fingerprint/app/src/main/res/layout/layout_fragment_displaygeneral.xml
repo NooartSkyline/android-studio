@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Fragment.Fragment_displaygeneral">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Dohome.AppBarOverlay">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/im_displaygeneral_Dohome"
+                android:layout_width="38dp"
+                android:layout_height="23dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_displaygeneral_user"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorblack"
+                app:layout_constraintBottom_toTopOf="@+id/im_displaygeneral_Dohome"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/im_displaygeneral_Dohome"
+                app:layout_constraintTop_toBottomOf="@+id/im_displaygeneral_Dohome" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/tv_layoutsearchproduct_article_barcode"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#fff"
+                android:ems="10"
+                android:hint="Article/Barcode"
+                android:inputType="text"
+                android:textColor="@color/colorDohomeon"
+                android:textColorHint="@color/colorDohomeon"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/iv_displaygeneral_search"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rg_displaygeneral"
+                app:met_floatingLabel="highlight"
+                tools:ignore="MissingConstraints,UnknownId" />
+
+            <ImageView
+                android:id="@+id/iv_displaygeneral_search"
+                android:layout_width="47dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/iv_displaygeneral_barcode"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintStart_toEndOf="@+id/tv_layoutsearchproduct_article_barcode"
+                app:layout_constraintTop_toTopOf="@+id/tv_layoutsearchproduct_article_barcode"
+                app:srcCompat="@drawable/search" />
+
+            <ImageView
+                android:id="@+id/iv_displaygeneral_barcode"
+                android:layout_width="47dp"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_displaygeneral_search"
+                app:srcCompat="@drawable/barcode" />
+
+            <TextView
+                android:id="@+id/tv_displaygeneral_display_h"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#00cc99"
+                android:text="TextView"
+                android:textAlignment="center"
+                android:textColor="@color/colorblack"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/im_displaygeneral_Dohome" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:background="#ffff99"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_layoutsearchproduct_article_barcode"
+                app:layout_constraintVertical_bias="0.525" />
+
+            <RadioGroup
+                android:id="@+id/rg_displaygeneral"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_displaygeneral_display_h">
+
+
+                <RadioButton
+                    android:id="@+id/rb_displaygenera_articlecode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:onClick="rb_checket_fragment_displaygeneral"
+                    android:text="Article code"
+                    android:textColor="@color/colorblack" />
+
+                <RadioButton
+                    android:id="@+id/rb_displaygenera_barcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:onClick="rb_checket_fragment_displaygeneral"
+                    android:text="Barcode"
+                    android:textColor="@color/colorblack"
+                    app:layout_constraintStart_toEndOf="@+id/rb_displaygenera_articlecode"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="0dp" />
+
+            </RadioGroup>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tabBackground="@drawable/tab_fragment"
+                app:tabSelectedTextColor="@color/colorGray"
+                app:tabTextColor="@color/colorblack"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp">
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/tabItem_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textAllCaps="false" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/tabItem_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail"
+                    android:textAllCaps="false" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/tabItem_prooerty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Property"
+                    android:textAllCaps="true" />
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/tabItem_substitute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="substitute"
+                    android:textAllCaps="true" />
+
+
+            </android.support.design.widget.TabLayout>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</android.support.design.widget.CoordinatorLayout>

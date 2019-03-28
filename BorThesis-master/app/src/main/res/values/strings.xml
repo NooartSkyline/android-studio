@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">แอปพลิเคชันการยืมหนังสือภาคนิพนธ์</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_register">สมัครสมาชิก</string>
+    <string name="dialog_title">แจ้งเตือน</string>
+    <string name="dialog_message">ยืนยันการยกเลิกการสมัครสมาชิก</string>
+    <string name="dialog_text_btn_ok">ตกลง</string>
+    <string name="dialog_text_btn_cancle">ยกเลิก</string>
+    <string name="title_activity_main_app">MainAppActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="bottombar_main">หน้าหลัก</string>
+    <string name="bottombar_search">ค้นหา</string>
+    <string name="bottombar_trans">การทำรายการ</string>
+    <string name="bottombar_setting">ตั้งค่า</string>
+    <string name="hint_search_year">ใส่ปีที่ต้องการค้นหา \"2530-2560\"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_search">ค้นหา</string>
+    <string name="menu_filter">ตัวกรอง</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_detail">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_fm_detail_dimansion_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Dimansion"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_wide_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="wide/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_unit_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_detail_long_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_unit_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_high_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="High/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_long_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_detail_weight_kg_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_long_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_long_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Long/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_wide_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_detail_high_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_wide_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_unit_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Unit"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_detail_wide_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_detail_dimansion_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_volume_ccm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Volume/ccm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_weight_kg_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_weight_kg_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_weight_kg_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Weight/kg"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_high_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_detail_volume_ccm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_high_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_binstoragelocation_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Bin ( Storage Location )"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_fm_detail_detail" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fm_detail_detail"
+        android:layout_width="368dp"
+        android:layout_height="212dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_detail_high_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_wide_cm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_detail_binstoragelocation_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_detail_storagelocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_detail_wide_cm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_detail_wide_cm" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_fm_detail_binstoragelocation"
+        android:layout_width="368dp"
+        android:layout_height="222dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+</android.support.constraint.ConstraintLayout>

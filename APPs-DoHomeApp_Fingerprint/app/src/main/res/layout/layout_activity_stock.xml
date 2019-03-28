@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/Dohome.AppBarOverlay">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/im_stock_stock_Dohome"
+                    android:layout_width="38dp"
+                    android:layout_height="23dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/tv_stock_stock_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/colorblack"
+                    app:layout_constraintBottom_toTopOf="@+id/im_stock_stock_Dohome"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/im_stock_stock_Dohome"
+                    app:layout_constraintTop_toBottomOf="@+id/im_stock_stock_Dohome" />
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/tv_layoutsearchproduct_article_barcode"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#fff"
+                    android:ems="10"
+                    android:hint="Article/Barcode"
+                    android:inputType="text"
+                    android:textColor="@color/colorDohomeon"
+                    android:textColorHint="@color/colorDohomeon"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_stock_stock_search"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintHorizontal_weight="1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rg_stock_stockl"
+                    app:met_floatingLabel="highlight"
+                    tools:ignore="MissingConstraints,UnknownId" />
+
+                <ImageView
+                    android:id="@+id/iv_stock_stock_search"
+                    android:layout_width="47dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toStartOf="@+id/iv_stock_stock_barcode"
+                    app:layout_constraintHorizontal_weight="1"
+                    app:layout_constraintStart_toEndOf="@+id/tv_layoutsearchproduct_article_barcode"
+                    app:layout_constraintTop_toTopOf="@+id/tv_layoutsearchproduct_article_barcode"
+                    app:srcCompat="@drawable/search" />
+
+
+                <ImageView
+                    android:id="@+id/iv_stock_stock_barcode"
+                    android:layout_width="47dp"
+                    android:layout_height="52dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/iv_stock_stock_search"
+                    app:srcCompat="@drawable/barcode" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="0dp"
+                    android:layout_height="28dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="#ffff99"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sn_stock_site" />
+
+                <RadioGroup
+                    android:id="@+id/rg_stock_stockl"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_stock_stock_user">
+
+
+                    <RadioButton
+                        android:id="@+id/rb_stock_stock_articlecode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:onClick="rb_checket_stock"
+                        android:text="Article code"
+                        android:textColor="@color/colorblack" />
+
+                    <RadioButton
+                        android:id="@+id/rb_stock_stock_barcode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:onClick="rb_checket_stock"
+                        android:text="Barcode"
+                        android:textColor="@color/colorblack"
+                        app:layout_constraintStart_toEndOf="@+id/rb_stock_stock_articlecode"
+                        tools:ignore="MissingConstraints"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                </RadioGroup>
+
+                <Spinner
+                    android:id="@+id/sn_stock_site"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_stock_site"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_stock_sloc"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/tv_stock_site"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_stock_site" />
+
+                <Spinner
+                    android:id="@+id/sn_stock_sloc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_stock_sloc"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/tv_stock_sloc"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_stock_sloc" />
+
+                <TextView
+                    android:id="@+id/tv_stock_site"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Site : "
+                    android:textColor="@color/colorblack"
+                    app:layout_constraintEnd_toStartOf="@+id/sn_stock_site"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_layoutsearchproduct_article_barcode" />
+
+                <TextView
+                    android:id="@+id/tv_stock_sloc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sloc : "
+                    android:textColor="@color/colorblack"
+                    app:layout_constraintBottom_toTopOf="@+id/sn_stock_site"
+                    app:layout_constraintEnd_toStartOf="@+id/sn_stock_sloc"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/sn_stock_site"
+                    app:layout_constraintTop_toBottomOf="@+id/sn_stock_site" />
+
+
+            </android.support.constraint.ConstraintLayout>
+        </android.support.design.widget.AppBarLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_stock_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_stock_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_stock_slocname_h" />
+
+    <Button
+        android:id="@+id/btn_stock_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginEnd="8dp"
+        android:text="Detail"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_stock_site_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="Stie"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_sloc_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+    <TextView
+        android:id="@+id/tv_stock_sloc_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sloc"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_slocname_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tv_stock_site_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_stock_site_h" />
+
+    <TextView
+        android:id="@+id/tv_stock_slocname_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sloc Name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_stock_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1.8"
+        app:layout_constraintStart_toEndOf="@+id/tv_stock_sloc_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_stock_sloc_h" />
+
+    <TextView
+        android:id="@+id/tv_stock_stock_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tv_stock_atp_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tv_stock_slocname_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_stock_slocname_h" />
+
+    <TextView
+        android:id="@+id/tv_stock_atp_h"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="ATP"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tv_stock_stock_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_stock_stock_h" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Insert-MySQL-master.iml" filepath="$PROJECT_DIR$/Insert-MySQL-master.iml" />
+      <module fileurl="file://C:\Users\withawat.bun\Desktop\Android\Insert-MySQL-master\Insertdata.iml" filepath="C:\Users\withawat.bun\Desktop\Android\Insert-MySQL-master\Insertdata.iml" />
+      <module fileurl="file://C:\Users\withawat.bun\Desktop\Android\Insert-MySQL-master\app\app.iml" filepath="C:\Users\withawat.bun\Desktop\Android\Insert-MySQL-master\app\app.iml" />
+    </modules>
+  </component>
+</project>

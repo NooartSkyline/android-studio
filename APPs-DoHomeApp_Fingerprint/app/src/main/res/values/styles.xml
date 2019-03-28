@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Dohome" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorDohomekem</item>
+        <item name="colorAccent">@color/colorDohomeon</item>
+
+    </style>
+
+    <style name="Dohome.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Dohome.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

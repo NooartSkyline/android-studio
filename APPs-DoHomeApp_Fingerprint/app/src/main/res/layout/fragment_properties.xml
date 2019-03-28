@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Fragment_properties">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_fm_properties_shelflife_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="shelf life : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_batch_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Batch : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_shelflife_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_shelflife_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_serialnumber_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Serial number : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_batch_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_batch_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_ah_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="AH : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_serialnumber_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_serialnumber_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_purchgroup_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Purch. Group : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_ah_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_ah_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_purchgroupint_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Purch. Group int : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_purchgroup_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_purchgroup_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_ctryoforigin_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Ctry of origin : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_purchgroupint_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_purchgroupint_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_tax_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tax : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_ctryoforigin_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_ctryoforigin_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_shelflife"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_shelflife_h"
+        app:layout_constraintTop_toTopOf="@+id/tv_fm_properties_shelflife_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_batch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_batch_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_shelflife" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_serialnumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_serialnumber_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_batch" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_ah"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_ah_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_serialnumber" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_purchgroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_purchgroup_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_ah" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_purchgroupint"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_purchgroupint_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_purchgroup" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_ctryoforigin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_ctryoforigin_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_purchgroupint" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_warranty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_warranty_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_tax" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_warranty_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Warranty : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_tax_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_tax_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_tax"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_tax_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_ctryoforigin" />
+
+    <TextView
+        android:id="@+id/et_fm_properties_properties_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Properties : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_promotion_h2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_promotion_h2" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_promotion_h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Promotion : "
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toEndOf="@+id/tv_fm_properties_warranty_h"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_warranty_h" />
+
+    <EditText
+        android:id="@+id/et_fm_properties_properties"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_fm_properties_properties_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_properties_promotion2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_properties_promotion_h2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fm_properties_warranty" />
+
+</android.support.constraint.ConstraintLayout>

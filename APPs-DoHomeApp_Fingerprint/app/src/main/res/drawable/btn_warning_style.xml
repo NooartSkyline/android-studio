@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorEffectWarning"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="lollipop"
+    >
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorDohomekem"></solid>
+            <stroke android:color="@color/colorWhite" android:width="@dimen/stroke_width_btn"></stroke>
+            <corners android:radius="@dimen/stroke_width_btn"></corners>
+        </shape>
+
+    </item>
+
+</ripple>

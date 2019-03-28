@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDohomekem">#f4791a</color>
+    <color name="colorDohomeon">#ff8e37</color>
+    <color name="colorDohomeSpinner">#f7dac3</color>
+    <color name="colorEffectPrimary">#c7c7c7</color>
+    <color name="colorEffectWarning">#c7c7c7</color>
+    <color name="colorSignin">#ffbb5d</color>
+    <color name="colorbg_login">#f7c40c</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#6b6b6b</color>
+    <color name="colorsky">#63d6ff</color>
+    <color name="colorskyon">#91e2ff</color>
+    <color name="colorblack">#000000</color>
+    <color name="redColor">#f40408</color>
+</resources>

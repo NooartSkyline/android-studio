@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_wide_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="wide/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_itemdetail_unit_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_itemdetail_long_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemdetail_unit_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_high_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="High/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_itemdetail_long_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_itemdetail_weight_kg_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemdetail_long_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_long_cm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Long/cm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_itemdetail_wide_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_itemdetail_high_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemdetail_wide_cm_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_unit_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Unit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_itemdetail_wide_cm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_volume_ccm_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Volume/ccm"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_itemdetail_weight_kg_h"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemdetail_weight_kg_h" />
+
+    <TextView
+        android:id="@+id/tv_fm_itemdetail_weight_kg_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Weight/kg"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tv_fm_itemdetail_high_cm_h"
+        app:layout_constraintEnd_toStartOf="@+id/tv_fm_itemdetail_volume_ccm_h"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_fm_itemdetail_high_cm_h" />
+
+</android.support.constraint.ConstraintLayout>

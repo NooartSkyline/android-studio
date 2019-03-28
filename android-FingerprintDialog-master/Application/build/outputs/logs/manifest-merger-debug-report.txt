@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:1-47:12
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:1-47:12
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:1-47:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\9fab15a6ac97b55c6607aa61ac55c8e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\76dc16e2730f84b06a2bfcbf996f8e60\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0c1f41b739ca1fd82cf0400f58980aba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c5a3f2645e8bdb31dfccb85c7df4fc9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\76747dcfd9743652c140d52253142645\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\92e06112e976f634fbaad583127a6ec1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\820b6f19c88d6ce7e2e3d560ebd62362\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\46aae75313dea0043cf8204ec6248210\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\772dc6ffbfe347a5e863f67c23cd85f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b42816a1634de8d37bedbac45966438a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a222b53117ada0b6fc81f4cf483c4f73\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5a49a719fb7831488d40608cf0fec98e\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:1-47:12
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:1-47:12
+	package
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:16:11-58
+	android:versionName
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:20:5-30
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:18:5-51
+	xmlns:android
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:17:5-63
+	android:versionCode
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:19:5-28
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:22:5-74
+	android:name
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:22:22-71
+application
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:24:5-46:19
+	android:supportsRtl
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:27:9-49
+	tools:ignore
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:30:9-48
+	android:icon
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:26:9-43
+	android:allowBackup
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:25:9-35
+	android:theme
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:29:9-53
+activity#com.example.android.fingerprintdialog.MainActivity
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:34:13-53
+	android:theme
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:35:13-69
+	android:name
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:33:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:38:27-74
+activity#com.example.android.fingerprintdialog.SettingsActivity
+ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:42:9-45:57
+	android:parentActivityName
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:45:13-55
+	android:label
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:44:13-52
+	android:name
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml:43:13-45
+uses-sdk
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\9fab15a6ac97b55c6607aa61ac55c8e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\9fab15a6ac97b55c6607aa61ac55c8e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\76dc16e2730f84b06a2bfcbf996f8e60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\76dc16e2730f84b06a2bfcbf996f8e60\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0c1f41b739ca1fd82cf0400f58980aba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\0c1f41b739ca1fd82cf0400f58980aba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c5a3f2645e8bdb31dfccb85c7df4fc9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\c5a3f2645e8bdb31dfccb85c7df4fc9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\76747dcfd9743652c140d52253142645\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\76747dcfd9743652c140d52253142645\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\92e06112e976f634fbaad583127a6ec1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\92e06112e976f634fbaad583127a6ec1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\820b6f19c88d6ce7e2e3d560ebd62362\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\820b6f19c88d6ce7e2e3d560ebd62362\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\46aae75313dea0043cf8204ec6248210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\46aae75313dea0043cf8204ec6248210\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\772dc6ffbfe347a5e863f67c23cd85f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\772dc6ffbfe347a5e863f67c23cd85f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b42816a1634de8d37bedbac45966438a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\b42816a1634de8d37bedbac45966438a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a222b53117ada0b6fc81f4cf483c4f73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\a222b53117ada0b6fc81f4cf483c4f73\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5a49a719fb7831488d40608cf0fec98e\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\withawat.bun\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\5a49a719fb7831488d40608cf0fec98e\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		ADDED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\android-FingerprintDialog-master\Application\src\main\AndroidManifest.xml

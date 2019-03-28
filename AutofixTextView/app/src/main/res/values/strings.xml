@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Autofix TextView</string>
+    <string name="edit_text_hint">Input some text</string>
+</resources>

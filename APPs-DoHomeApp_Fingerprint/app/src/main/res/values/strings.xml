@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">APPs-DoHomeApp</string>
+    <string name="SharePreService">SharePreService</string>
+    <string name="btn_ok">OK</string>
+    <dimen name="btn_textsize">15sp</dimen>
+    <dimen name="stroke_width_btn">3dp</dimen>
+
+    <dimen name="btn_height">45sp</dimen>
+    <dimen name="sp_hide">40dp</dimen>
+    <string name="title_activity_fragment_displaygeneral">Fragment_displaygeneral</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fingerprint_message">Place your fingertip on the scanner to verify fingerprint.</string>
+    <string name="successful_message">You have successfully authenticated with FingerPrint.</string>
+    <string name="fingerprint_not_exist">Your Device does not have a Fingerprint Sensor.</string>
+    <string name="fingerprint_not_enabled">Fingerprint authentication permission not enabled in your device.</string>
+    <string name="fingerprint_not_registered">Register at least one fingerprint in Settings to make work Fingerprint.</string>
+    <string name="lock_screen_setting_disabled">Lock screen security not enabled in Settings.</string>
+</resources>

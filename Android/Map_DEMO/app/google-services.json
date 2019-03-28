@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "683175387359",
+    "firebase_url": "https://resolute-vault-196504.firebaseio.com",
+    "project_id": "resolute-vault-196504",
+    "storage_bucket": "resolute-vault-196504.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683175387359:android:7b8f269b41bd9830",
+        "android_client_info": {
+          "package_name": "com.example.withawatbun.map_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683175387359-2ahrvj6jjq6d0t9c5maci5sh6v0g0dqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.withawatbun.map_demo",
+            "certificate_hash": "bb57c7e42baaa7eceef48b508c665b4b095bd6bc"
+          }
+        },
+        {
+          "client_id": "683175387359-o69m41nf4nlg2d9g7aq60sj11a7ahp2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ3SXjWNXQDM3gFgXJQBPjkB7891L4ePw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683175387359-o69m41nf4nlg2d9g7aq60sj11a7ahp2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

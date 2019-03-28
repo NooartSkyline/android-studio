@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#04AEDA</color>
+    <color name="colorPrimaryDark">#0293b9</color>
+    <color name="colorAccent">#45c6e7</color>
+    <color name="colorBtnOutline">#37aeaeae</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color_grey">#b4b4b4</color>
+    <color name="color_light_grey">#a4a4a4</color>
+    <color name="color_light_black">#535353</color>
+    <color name="not_ready_status">#ff5c2a</color>
+    <color name="ready_status">#75be51</color>
+    <color name="color_warning">#FFFFA82D</color>
+</resources>
